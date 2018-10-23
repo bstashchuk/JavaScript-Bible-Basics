@@ -1,5 +1,5 @@
 /**
- * JS-BASICS/INTRO/CHALLENGE-1 - TASK
+ * JS-BASICS/INTRO/CHALLENGE-1 - SOLUTION
  * 
  * Create new .js file called "other.js"
  * and in this file following line should
