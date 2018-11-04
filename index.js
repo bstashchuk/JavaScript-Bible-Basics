@@ -123,12 +123,12 @@
 //   b: true
 // };
 
-// // Code exectuion is not stopped
+// // Code execution is not stopped
 // console.log(myObject.c); // undefined
 
 // console.log(myObject.absentProperty); // undefined
 
-// // // Code exectuion is STOPPED
+// // // Code execution is STOPPED
 // // console.log(nonDeclaredVariable); // Uncaught ReferenceError: nonDeclaredVariable is not defined
 
 // // IMPORTANT!!!
