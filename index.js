@@ -103,3 +103,75 @@
 // }
 
 // myFunction(10);
+
+
+// /**
+//  * CHALLENGE 1
+//  * 
+//  * Create function called "mult" and it will have 3 parameters.
+//  * Create new variable and assign to it result of multiplication of all 3 parameters.
+//  * Print to the console result.
+//  * Don't use "return".
+//  */
+// function mult(a, b, c) {
+//   const result = a * b * c;
+//   console.log(result);
+// }
+
+// mult(0, 3, 5); // 0
+
+// mult(2, 3, 5); // 30
+
+// mult(2, 3, "abc"); // NaN
+
+// mult(); // NaN
+
+// console.log(mult(2, 3, 5)); // 30 is printed inside of the function and function returns "undefined"
+
+// /**
+//  * CHALLENGE 2
+//  * 
+//  * Create a function "concatenateStrings" and it will have 2 parameters.
+//  * And this function will return concatenated string.
+//  */
+// function concatenateStrings(str1, str2) {
+//   return str1 + " " + str2;
+// }
+
+// const str3 = concatenateStrings("Hello", "World"); // "Hello World"
+
+// console.log(str3);
+
+// /** 
+//  * CHALLENGE 3
+//  * 
+//  * Create function "outerFunction" with 2 parameters.
+//  * Create function inside of the "outerFunction" and name it "innerFunction" with one parameter.
+//  * This "innerFunction" will return square of parameter (parameter * parameter).
+//  * 
+//  * In the "outerFunction" sum both parameters.
+//  * Call "innerFunction" with argument that is equal to sum of both parameters of the "outerFunction".
+//  * Log to the console result of the "innerFunction" call.
+//  */
+// function outerFunction(a, b) {
+//   function innerFunction(c) {
+//     return c * c;
+//   }
+//   const sum = a + b;
+//   const result = innerFunction(sum);
+
+//   console.log(result);
+// }
+
+// // // Simplified
+// // function outerFunction(a, b) {
+// //   function innerFunction(c) {
+// //     return c * c;
+// //   }
+
+// //   console.log(innerFunction(a + b));
+// // }
+
+// outerFunction(2, 3); // 25
+
+// outerFunction(3, 7); // 100
