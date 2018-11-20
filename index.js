@@ -1,5 +1,5 @@
 /**
- * CHALLENGE 01: TASK - Function Expressions
+ * CHALLENGE 01: SOLUTION - Function Expressions
  * 
  * Use following built-in functions:
  * setTimeout
