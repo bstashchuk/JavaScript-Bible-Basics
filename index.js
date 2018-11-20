@@ -1,5 +1,5 @@
 /**
- * CHALLENGE 01: SOLUTION - Function Expressions
+ * JS-BASICS/CORE/CHALLENGE 01: SOLUTION - Function Expressions
  * 
  * Use following built-in functions:
  * setTimeout
