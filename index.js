@@ -203,3 +203,36 @@
 // console.log(!!myVariable); // false
 // myVariable = 10;
 // console.log(!!myVariable); // true
+
+
+// /**
+//  * SECTION 4
+//  * 
+//  * Operators Precedence
+//  */
+// console.log(2 + 4 * 10); // 42 FIRST - "*", SECOND - "+"
+// console.log((2 + 4) * 10); // 60 FIRST - "()", SECOND - "+", THIRD - "*"
+
+// let a;
+// a = 1;
+
+// a = a + 5; // FIRST - "+", SECOND - "="
+
+// console.log(a); // 6
+
+// /**
+//  * SECTION 5
+//  * 
+//  * Operators Associativity
+//  */
+// let a, b;
+// b = 3;
+
+// a = b = 5; // right-to-left
+// console.log(a, b);
+
+// console.log(4 + 5 + 6); // 15 - left-to-right
+// console.log(6 + 4 + 5); // 15 - left-to-right
+
+// console.log(5 * 10 / 2); // 25 - left-to-right
+// console.log(5 * 10 / 2 / 5); // 5 - left-to-right
