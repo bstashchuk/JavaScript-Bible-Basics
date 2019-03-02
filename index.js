@@ -1,12 +1,27 @@
-// CHALLENGE
-// Create a function that will add custom method to the global object "window"
-function addCustomGlobalMethod(globalObject) {
+// IIFE - Immediately invoked function expression
+// OPTION 1
+(function(globalObject) {
   globalObject.customMethod = function() {
     console.log("Greeting from the custom method");
   };
-}
+})(this);
 
-addCustomGlobalMethod(this);
+
+// // OPTION 2
+// (function() {
+//   this.customMethod = function() {
+//     console.log("Greeting from the custom method");
+//   };
+// })();
+
+// // OPTION 3
+// (() => {
+//   this.customMethod = function() {
+//     console.log("Greeting from the custom method");
+//   };
+// })();
+
+
 console.log(this === window); // true
 console.log(typeof window); // "object"
 
