@@ -13,3 +13,10 @@
  * "Here is message number 4"
  * "Here is message number 5"
  */
+let myObject;
+
+myObject = {
+    a: 10,
+    b; "abc"
+}
+console.log (myObject)
