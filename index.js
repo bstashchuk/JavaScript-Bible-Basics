@@ -20,3 +20,5 @@ myObject = {
     b: "abc"
 }
 console.log (myObject)
+ const = 'private'
+ 
