@@ -17,6 +17,6 @@ let myObject;
 
 myObject = {
     a: 10,
-    b; "abc"
+    b: "abc"
 }
 console.log (myObject)
