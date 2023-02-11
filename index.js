@@ -21,4 +21,4 @@ myObject = {
 }
 console.log (myObject)
  const = 'private'
- 
+ console.log(const)
